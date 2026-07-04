@@ -4,14 +4,15 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-compatible-blue)](https://modelcontextprotocol.io)
 
-**Судебная практика РФ (Sudact) для AI-агентов.** — Russian court case-law search for AI agents (Cursor, Claude, and any MCP client).
+**Судебная практика РФ для AI-агентов** — Russian court case-law search for AI agents (Cursor, Claude, and any MCP client).
 
-MCP-сервер (Model Context Protocol) для поиска по судебной практике России: полнотекстовый
-поиск дел (как родной поиск на sudact.ru — по тексту документа, статье закона, суду,
-инстанции и датам) и получение полного текста решения.
+MCP-сервер (Model Context Protocol) для поиска по судебной практике России:
+полнотекстовый поиск по текстам решений — по тексту документа, статье закона, суду,
+инстанции и датам — и получение полного текста решения по выбранному делу.
 
-> Это **тонкий клиент**. Движок поиска, пул прокси, кэш и анонимизация работают на
-> hosted-бэкенде Atomno Labs. Для доступа нужен API-ключ (тариф Pro) —
+> Работает через hosted-API Atomno Labs: движок поиска, кэш и анонимизация ПДн —
+> на нашей стороне, вам не нужно ничего парсить или поднимать, данные всегда свежие.
+> Нужен только API-ключ (тариф Pro) —
 > [atomno-labs.ru/pricing](https://atomno-labs.ru/pricing#sudact-pro).
 
 ## Быстрый старт
