@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.atomno-labs/mcp-sudact",
+  "description": "Russian court case-law search for AI agents — full-text search across court decisions with filters by law article, court, instance and dates; fetch full decision text. Hosted engine, fresh data, atomno API key required.",
+  "repository": {
+    "url": "https://github.com/atomno-labs/mcp-sudact",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "atomno-mcp-sudact",
+      "version": "0.1.1",
+      "runtimeHint": "uvx",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        {
+          "name": "MCP_SUDACT_TOKEN",
+          "description": "API key (Pro tier) for hosted search and document retrieval.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

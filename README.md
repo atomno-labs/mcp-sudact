@@ -1,3 +1,5 @@
+<!-- mcp-name: io.github.atomno-labs/mcp-sudact -->
+
 # atomno-mcp-sudact
 
 [![PyPI](https://img.shields.io/pypi/v/atomno-mcp-sudact)](https://pypi.org/project/atomno-mcp-sudact/)
