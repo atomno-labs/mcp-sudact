@@ -3,6 +3,12 @@
 Формат — [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 версии — [SemVer](https://semver.org/lang/ru/).
 
+## [0.1.2] — 2026-07-05
+
+### Changed
+
+- GitHub-организация переименована `atomno-labs` → `atomno-mcp`; обновлены ссылки на репозиторий и MCP-реестр (`pyproject.toml`, `server.json`, `README`, workflow публикации).
+
 ## [0.1.0] — 2026-07-03
 
 ### Added

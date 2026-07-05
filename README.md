@@ -1,4 +1,4 @@
-<!-- mcp-name: io.github.atomno-labs/mcp-sudact -->
+<!-- mcp-name: io.github.atomno-mcp/mcp-sudact -->
 
 # atomno-mcp-sudact
 

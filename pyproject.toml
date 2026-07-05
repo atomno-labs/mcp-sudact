@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "atomno-mcp-sudact"
-version = "0.1.1"
+version = "0.1.2"
 description = "Thin MCP client for Russian court practice (Sudact) hosted API: full-text case search + full decision text. Engine is hosted; this package only talks to the Atomno Labs backend."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -51,10 +51,10 @@ release = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/atomno-labs/mcp-sudact"
-Repository = "https://github.com/atomno-labs/mcp-sudact"
-Issues = "https://github.com/atomno-labs/mcp-sudact/issues"
-Changelog = "https://github.com/atomno-labs/mcp-sudact/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/atomno-mcp/mcp-sudact"
+Repository = "https://github.com/atomno-mcp/mcp-sudact"
+Issues = "https://github.com/atomno-mcp/mcp-sudact/issues"
+Changelog = "https://github.com/atomno-mcp/mcp-sudact/blob/main/CHANGELOG.md"
 Documentation = "https://atomno-labs.ru/mcp/sudact"
 
 [project.scripts]
