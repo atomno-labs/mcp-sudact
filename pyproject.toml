@@ -9,7 +9,7 @@ description = "Thin MCP client for Russian court practice (Sudact) hosted API: f
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "atomno-labs", email = "hello@atomno-labs.ru" }]
+authors = [{ name = "atomno-mcp", email = "hello@atomno-mcp.ru" }]
 keywords = [
   "mcp",
   "model-context-protocol",
@@ -55,7 +55,7 @@ Homepage = "https://github.com/atomno-mcp/mcp-sudact"
 Repository = "https://github.com/atomno-mcp/mcp-sudact"
 Issues = "https://github.com/atomno-mcp/mcp-sudact/issues"
 Changelog = "https://github.com/atomno-mcp/mcp-sudact/blob/main/CHANGELOG.md"
-Documentation = "https://atomno-labs.ru/mcp/sudact"
+Documentation = "https://atomno-mcp.ru/mcp/sudact"
 
 [project.scripts]
 atomno-mcp-sudact = "atomno_mcp_sudact.server:main"

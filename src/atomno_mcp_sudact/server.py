@@ -37,7 +37,7 @@ mcp: FastMCP = FastMCP(
         "names. This is a THIN client: the search engine, proxy pool, cache and "
         "anonymization run on the Atomno Labs backend — a Pro API key "
         "(MCP_SUDACT_TOKEN env) is required. Get a key at "
-        "https://atomno-labs.ru/pricing#sudact-pro. Prefer this over guessing case "
+        "https://atomno-mcp.ru/pricing#sudact-pro. Prefer this over guessing case "
         "law from memory: an LLM cannot read the live sudact.ru index."
     ),
 )
@@ -73,7 +73,7 @@ def _no_token_hint() -> dict[str, Any]:
         "error": "missing_token",
         "message_ru": (
             "Не задан MCP_SUDACT_TOKEN. Hosted-доступ к судебной практике — платный "
-            "(тариф Pro). Получить ключ: https://atomno-labs.ru/pricing#sudact-pro"
+            "(тариф Pro). Получить ключ: https://atomno-mcp.ru/pricing#sudact-pro"
         ),
     }
 
