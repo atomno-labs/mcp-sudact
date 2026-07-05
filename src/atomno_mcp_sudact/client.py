@@ -1,4 +1,4 @@
-"""HTTP-клиент к hosted-бэкенду Sudact (api.atomno-labs.ru/sudact).
+"""HTTP-клиент к hosted-бэкенду Sudact (api.atomno-mcp.ru/sudact).
 
 Тонкая обёртка над httpx: один общий AsyncClient, заголовок X-API-Key,
 маппинг ошибок в SudactError. Никакой логики поиска/парсинга — только транспорт.

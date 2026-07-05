@@ -11,7 +11,7 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-DEFAULT_API_BASE = "https://api.atomno-labs.ru/sudact"
+DEFAULT_API_BASE = "https://api.atomno-mcp.ru/sudact"
 DEFAULT_TIMEOUT = 60.0
 
 

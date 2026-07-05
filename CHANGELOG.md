@@ -3,6 +3,15 @@
 Формат — [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 версии — [SemVer](https://semver.org/lang/ru/).
 
+## [0.1.3] — 2026-07-05
+
+### Changed
+
+- Канонический hosted-эндпоинт переведён на новый бренд-домен:
+  `api.atomno-labs.ru/sudact` → `api.atomno-mcp.ru/sudact` (`DEFAULT_API_BASE`,
+  docstrings клиента и сервера, `__init__`). Переменная `MCP_SUDACT_API_BASE`
+  по-прежнему переопределяет значение.
+
 ## [0.1.2] — 2026-07-05
 
 ### Changed

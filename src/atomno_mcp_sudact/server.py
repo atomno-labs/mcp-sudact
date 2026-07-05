@@ -1,6 +1,6 @@
 """FastMCP entrypoint для atomno-mcp-sudact (тонкий клиент).
 
-Тулзы поверх hosted-бэкенда `https://api.atomno-labs.ru/sudact`:
+Тулзы поверх hosted-бэкенда `https://api.atomno-mcp.ru/sudact`:
   - search_cases(...) — родной полнотекстовый поиск sudact.ru (как на сайте);
   - get_citation(...)  — полный текст решения по url карточки или case_id.
 
