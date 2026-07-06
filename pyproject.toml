@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "atomno-mcp-sudact"
-version = "0.1.3"
-description = "Thin MCP client for Russian court practice (Sudact) hosted API: full-text case search + full decision text. Engine is hosted; this package only talks to the Atomno Labs backend."
+version = "0.1.4"
+description = "Thin MCP client for Russian court practice (Sudact) hosted API: full-text case search + full decision text. Engine is hosted; this package only talks to the atomno-mcp backend."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }

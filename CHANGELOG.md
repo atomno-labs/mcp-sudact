@@ -3,6 +3,14 @@
 Формат — [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/),
 версии — [SemVer](https://semver.org/lang/ru/).
 
+## [Unreleased]
+
+## [0.1.4] — 2026-07-06
+
+### Changed
+
+- Обновлены метаданные пакета PyPI: автор и контактный email переведены на бренд `atomno-mcp` (`hello@atomno-mcp.ru`).
+
 ## [0.1.3] — 2026-07-05
 
 ### Changed
