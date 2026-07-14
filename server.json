@@ -1,18 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.atomno-mcp/mcp-sudact",
+  "name": "mcp-sudact",
   "description": "Russian court practice (Sudact): case search by article, court, dates; full decision text.",
   "repository": {
     "url": "https://github.com/atomno-mcp/mcp-sudact",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.6",
   "packages": [
     {
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "atomno-mcp-sudact",
-      "version": "0.1.1",
+      "version": "0.1.6",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"
