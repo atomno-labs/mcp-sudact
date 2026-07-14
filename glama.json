@@ -1,4 +1,8 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "maintainers": ["atomnos"]
+  "maintainers": [
+    "atomnos"
+  ],
+  "name": "mcp-sudact",
+  "description": "Russian court practice (Sudact): case search by article, court, dates; full decision text."
 }
